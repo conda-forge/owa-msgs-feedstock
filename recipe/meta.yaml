@@ -1,5 +1,5 @@
 {% set name = "owa-msgs" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_msgs-{{ version }}.tar.gz
-  sha256: f10e191b68a7a01946b3c8c523ffdce36a4552ec66d176d3c31f824d52e1ac4b
+  sha256: 0e49339faebd96fcd34a8d74b85205841a83c68a1aa2a5ab22714c49632c0964
 
 build:
   noarch: python
